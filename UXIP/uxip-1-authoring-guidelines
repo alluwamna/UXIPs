@@ -1,0 +1,135 @@
+# UXIP‑1: Authoring Guidelines for UXIPs
+
+Version: 0.1  
+Status: Draft  
+Category: Process  
+Author: Alluwamna  
+Created: 2026‑03‑22  
+
+---
+
+## Abstract
+
+This document defines the minimal authoring requirements for UX Improvement
+Proposals (UXIPs). UXIP‑1 specifies the mandatory sections that every UXIP must
+include, along with optional sections authors may use when appropriate. The goal
+is to ensure clarity and consistency while keeping UXIPs lightweight and easy to
+produce.
+
+---
+
+## 1. Introduction
+
+UXIP‑0 defines the lifecycle and governance process for UXIPs. UXIP‑1
+complements that document by defining the minimal structure required for
+authoring UXIPs.
+
+Only the sections strictly necessary for understanding, evaluating, and
+maintaining a UXIP are mandatory. All other sections are optional.
+
+---
+
+## 2. Mandatory Sections
+
+Every UXIP must include the following sections, in the order listed below.
+
+### (1) Header
+
+The header must include:
+
+- UXIP number  
+- Title  
+- Version  
+- Status  
+- Category  
+- Author(s)  
+- Created date  
+
+### (2) Abstract
+
+A short summary of the proposal. The abstract should be concise and limited to
+high‑level context.
+
+### (3) Introduction
+
+Context and motivation for the proposal. This section explains the background
+and why the UXIP exists.
+
+### (4) Proposal
+
+The main content of the UXIP. This section describes the change, idea, or
+process being proposed. Authors may structure this section as needed, including
+subsections such as “Specification,” “Process Overview,” or “Lifecycle.”
+
+### (5) Rationale
+
+A brief explanation of why the proposed approach was chosen over alternatives.
+
+### (6) Copyright
+
+All UXIPs must include the statement:  
+“This document is in the public domain.”
+
+---
+
+## 3. Optional Sections
+
+Authors may include any of the following sections when relevant. These sections
+are not required.
+
+### (1) Reference Implementation
+
+Example code, pseudocode, or implementation notes.
+
+### (2) Economic Considerations
+
+Analysis of incentives, costs, or market effects.
+
+### (3) Governance Considerations
+
+Notes on how the proposal interacts with governance processes.
+
+### (4) Appendix
+
+Supplemental material that supports the proposal but is not essential to the
+main text.
+
+---
+
+## 4. Formatting Guidance
+
+These guidelines are recommended but not mandatory.
+
+- Use plain text or simple Markdown.  
+- Keep language clear and concise.  
+- Avoid unnecessary formatting.  
+- Maintain consistent structure across UXIPs.  
+
+---
+
+## 5. Relationship to UXIP‑0
+
+UXIP‑0 defines how UXIPs progress through Draft, Review, and Final stages.
+UXIP‑1 defines the minimal structure required for authoring UXIPs.
+
+Together, these documents ensure that UXIPs are both procedurally sound and
+consistently written.
+
+---
+
+## 6. Rationale
+
+A minimal set of mandatory sections keeps UXIPs easy to write while ensuring
+that proposals remain clear, comparable, and maintainable. Optional sections
+allow authors to include additional detail when appropriate without imposing
+unnecessary requirements.
+
+---
+
+## 7. Copyright
+
+This document is in the public domain.
+
+---
+
+_End of Document._
