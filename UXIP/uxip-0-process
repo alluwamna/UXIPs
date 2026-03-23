@@ -197,6 +197,9 @@ Informational UXIPs do not require a vote unless explicitly stated.
 
 UXIPs shall be assigned sequential numbers.
 
+UXIP numbers are assigned by repository editors when a proposal is accepted for
+Draft status.
+
 UXIP‑0 is reserved for this process document.
 
 ---
