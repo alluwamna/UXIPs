@@ -1,65 +1,79 @@
-# UXIP‑<number>: <Title>
+# UXIP‑X: Title of the Proposal
 
 Version: 0.1  
 Status: Draft  
 Category: <Standard | Process | Informational>  
 Author: <Your Name or Handle>  
-Created: <YYYY‑MM‑DD>
+Created: <YYYY‑MM‑DD>  
 
 ---
 
 ## Abstract
 
-A short summary of the proposal.  
-Explain the purpose and the change in 2–4 sentences.
+A short summary of the proposal. This section should provide a concise overview
+of the idea, change, or process being introduced. Keep this section brief and
+focused on high‑level context.
 
 ---
 
 ## 1. Introduction
 
-Provide background, motivation, and context.  
-Explain why this UXIP exists and what problem it addresses.
+This section provides background, motivation, and context for the proposal. It
+should explain why the UXIP exists, what problem it addresses, or what value it
+adds to the UX Protocol or its governance.
 
 ---
 
-## 2. Specification
+## 2. Proposal
 
-Describe the proposed change in clear, technical detail.  
-This section should be precise enough that the change can be implemented or evaluated without ambiguity.
+This section contains the main content of the UXIP. It should describe the
+proposed change, mechanism, process, or concept in clear and structured terms.
 
-If the UXIP is Informational, use this section to present the guidance or principles.
+Authors may include subsections such as:
+
+- Specification  
+- Definitions  
+- Process Overview  
+- Lifecycle  
+- Parameters  
+- Examples  
+
+Use whatever structure best communicates the proposal.
 
 ---
 
 ## 3. Rationale
 
-Explain why this approach was chosen.  
-Discuss alternatives considered, trade‑offs, and reasoning.
+This section explains why the proposed approach was chosen over alternatives. It
+should briefly discuss trade‑offs, rejected options, or design considerations
+that influenced the final proposal.
 
 ---
 
-## 4. Backwards Compatibility
+## 4. Optional Sections
 
-Describe any compatibility concerns.  
-If none exist, state that explicitly.
+These sections are not required but may be included when relevant.
+
+### 4.1 Reference Implementation
+
+Example code, pseudocode, or implementation notes.
+
+### 4.2 Economic Considerations
+
+Analysis of incentives, costs, or market effects.
+
+### 4.3 Governance Considerations
+
+Notes on how the proposal interacts with governance processes.
+
+### 4.4 Appendix
+
+Supplemental material that supports the proposal but is not essential to the
+main text.
 
 ---
 
-## 5. Security Considerations
-
-Describe any security implications.  
-If none exist, state that explicitly.
-
----
-
-## 6. Governance
-
-Explain whether this UXIP requires an on‑chain governance proposal.  
-Informational UXIPs typically do not require a vote.
-
----
-
-## 7. Copyright
+## 5. Copyright
 
 This document is in the public domain.
 
