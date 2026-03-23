@@ -29,6 +29,15 @@ uxip-template.md
 
 README.md
 
+## Naming Convention
+
+UXIP files use the format:
+
+uxip-<number>-<short-slug>.md
+
+Numbers are assigned by editors.  
+Slugs are lowercase, hyphen separated, and descriptive.
+
 ## UXIP Lifecycle
 
 1. Draft – Proposal is submitted as a pull request.  
