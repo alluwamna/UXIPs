@@ -88,16 +88,16 @@ have been completed.
 
 ### 4.4 Time Limits
 
-A UXIP shall automatically enter **Withdrawn** status if any of the following
+A UXIP shall automatically enter Withdrawn status if any of the following
 time‑based conditions are met:
 
-1. **Minimum RFC Duration**  
-   The RFC period must remain open for public comment for at least **7 days**.  
+1. Minimum RFC Duration  
+   The RFC period must remain open for public comment for at least 7 days.  
    The RFC period may be extended once, for an additional 7 days, if discussion
    is active.
 
-2. **Maximum Review Duration**  
-   The UXIP has remained in the Review stage for **45 days** in total without
+2. Maximum Review Duration  
+   The UXIP has remained in the Review stage for 45 days in total without
    being marked Final.
 
 A UXIP may be finalized no earlier than 7 days after entering the Review stage
@@ -109,13 +109,13 @@ Review.
 A UXIP shall automatically enter Withdrawn status if any of the following
 activity‑based conditions are met:
 
-1. **30‑Day Inactivity Timeout**  
+1. 30‑Day Inactivity Timeout  
    No author activity is recorded for 30 consecutive days after entering the
    Review stage. Author activity includes updates to the Change Log or
-   substantive responses in the discussion thread.
+   responses in the discussion thread.
 
-2. **Failure to Participate**  
-   The author does not respond to substantive feedback during the Review stage.
+2. Failure to Participate  
+   The author does not respond to feedback during the Review stage.
 
 ### 4.6 Superseded
 
@@ -171,6 +171,8 @@ public record to reflect the status already triggered by the rules.
 ### 5.1 Creation
 
 Any community member may create a UXIP.
+
+UXIPs shall be submitted to the repository as pull requests.
 
 ### 5.2 Discussion
 
