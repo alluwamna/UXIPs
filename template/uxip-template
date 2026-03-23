@@ -1,0 +1,68 @@
+# UXIP‑<number>: <Title>
+
+Version: 0.1  
+Status: Draft  
+Category: <Standard | Process | Informational>  
+Author: <Your Name or Handle>  
+Created: <YYYY‑MM‑DD>
+
+---
+
+## Abstract
+
+A short summary of the proposal.  
+Explain the purpose and the change in 2–4 sentences.
+
+---
+
+## 1. Introduction
+
+Provide background, motivation, and context.  
+Explain why this UXIP exists and what problem it addresses.
+
+---
+
+## 2. Specification
+
+Describe the proposed change in clear, technical detail.  
+This section should be precise enough that the change can be implemented or evaluated without ambiguity.
+
+If the UXIP is Informational, use this section to present the guidance or principles.
+
+---
+
+## 3. Rationale
+
+Explain why this approach was chosen.  
+Discuss alternatives considered, trade‑offs, and reasoning.
+
+---
+
+## 4. Backwards Compatibility
+
+Describe any compatibility concerns.  
+If none exist, state that explicitly.
+
+---
+
+## 5. Security Considerations
+
+Describe any security implications.  
+If none exist, state that explicitly.
+
+---
+
+## 6. Governance
+
+Explain whether this UXIP requires an on‑chain governance proposal.  
+Informational UXIPs typically do not require a vote.
+
+---
+
+## 7. Copyright
+
+This document is in the public domain.
+
+---
+
+_End of Document._
