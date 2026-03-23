@@ -32,45 +32,51 @@ UXIP‑0 defines how UXIPs are created, reviewed, and finalized.
 
 ---
 
-## 2. UXIP Categories
+## 2. Proposal
+
+This section defines the UXIP process itself, including categories, lifecycle rules, workflow, numbering, and formatting requirements.
+
+---
+
+## 3. UXIP Categories
 
 Each UXIP shall specify one of the following categories:
 
-### 2.1 Standard
+### 3.1 Standard
 
 A change to the protocol, parameters, markets, or core functionality.
 
-### 2.2 Process
+### 3.2 Process
 
 A change to governance procedures, workflows, or coordination methods.
 
-### 2.3 Informational
+### 3.3 Informational
 
 A non‑binding document that provides guidance, values, or context.
 
 ---
 
-## 3. UXIP Lifecycle
+## 4. UXIP Lifecycle
 
 A UXIP shall progress through the following stages:
 
-### 3.1 Draft
+### 4.1 Draft
 
 The initial version. Posted publicly for discussion and early feedback.
 
-### 3.2 Review
+### 4.2 Review
 
 The document is revised based on community input.
 
 This stage includes a Request for Comment (RFC) period during which the community may provide feedback and the author may update the proposal.
 
-### 3.3 Final
+### 4.3 Final
 
 A UXIP shall be marked Final when the Review stage has concluded and the author has incorporated all relevant revisions.
 
 A UXIP may not be marked Final unless all mandatory sections and requirements have been completed.
 
-### 3.4 Time Limits
+### 4.4 Time Limits
 
 A UXIP shall automatically enter **Withdrawn** status if any of the following time‑based conditions are met:
 
@@ -83,7 +89,7 @@ A UXIP shall automatically enter **Withdrawn** status if any of the following ti
 
 A UXIP may be finalized no earlier than 7 days after entering the Review stage and must be resolved (Final or Withdrawn) no later than 45 days after entering Review.
 
-### 3.5 Activity Requirements
+### 4.5 Activity Requirements
 
 A UXIP shall automatically enter Withdrawn status if any of the following activity‑based conditions are met:
 
@@ -94,38 +100,38 @@ A UXIP shall automatically enter Withdrawn status if any of the following activi
 2. **Failure to Participate**  
    The author does not respond to substantive feedback during the Review stage.
 
-### 3.6 Superseded
+### 4.6 Superseded
 
 A UXIP may be replaced by a newer UXIP.
 
 Superseded UXIPs remain archived for historical reference.
 
-### 3.7 Orphaned or Non‑Compliant UXIPs
+### 4.7 Orphaned or Non‑Compliant UXIPs
 
 A UXIP shall be considered orphaned if:
 
-1. It meets any activity‑based condition in Section 3.5.  
+1. It meets any activity‑based condition in Section 4.5.  
 2. It does not meet mandatory formatting or submission requirements.
 
-Mandatory requirements must be satisfied before a UXIP can be marked Final and no later than the maximum Review duration defined in Section 3.4.
+Mandatory requirements must be satisfied before a UXIP can be marked Final and no later than the maximum Review duration defined in Section 4.4.
 
-Orphaned UXIPs are distinct from time‑based withdrawals defined in Section 3.4.
+Orphaned UXIPs are distinct from time‑based withdrawals defined in Section 4.4.
 
 Any UXIP meeting these conditions is automatically considered Withdrawn.
 
-#### 3.7.1 Handling Orphaned UXIPs
+#### 4.7.1 Handling Orphaned UXIPs
 
 Orphaned UXIPs shall be moved to Withdrawn status.
 
-#### 3.7.2 Revival
+#### 4.7.2 Revival
 
 A Withdrawn UXIP may be revived if an author assumes responsibility for maintaining it.
 
 The revived UXIP shall receive a new number and restart at Draft status.
 
-### 3.8 Enforcement
+### 4.8 Enforcement
 
-If a UXIP meets any of the conditions in Section 3.4, 3.5, or 3.7, it is automatically considered Withdrawn.
+If a UXIP meets any of the conditions in Section 4.4, 4.5, or 4.7, it is automatically considered Withdrawn.
 
 No further evaluation or justification is required.
 
@@ -137,25 +143,25 @@ Enforcement does not determine the status of the UXIP; it only updates the publi
 
 ---
 
-## 4. Workflow
+## 5. Workflow
 
-### 4.1 Creation
+### 5.1 Creation
 
 Any community member may create a UXIP.
 
-### 4.2 Discussion
+### 5.2 Discussion
 
 Discussion shall occur publicly and focus on clarity and rationale.
 
-### 4.3 Revision
+### 5.3 Revision
 
 Authors shall record substantial changes in the Change Log.
 
-### 4.4 Finalization
+### 5.4 Finalization
 
 After the RFC period and revisions, the UXIP may be marked Final.
 
-### 4.5 Governance
+### 5.5 Governance
 
 Standard and Process UXIPs requiring protocol changes shall be submitted to on‑chain governance.
 
@@ -163,7 +169,7 @@ Informational UXIPs do not require a vote unless explicitly stated.
 
 ---
 
-## 5. Numbering
+## 6. Numbering
 
 UXIPs shall be assigned sequential numbers.
 
@@ -171,13 +177,13 @@ UXIP‑0 is reserved for this process document.
 
 ---
 
-## 6. Format
+## 7. Format
 
 UXIPs shall be written in plain text.
 
 ---
 
-## 7. Rationale
+## 8. Rationale
 
 UXIP‑0 ensures that protocol evolution is transparent, coherent, and aligned with long‑term goals.
 
@@ -185,7 +191,7 @@ A simple, text‑based system reduces barriers to participation and preserves th
 
 ---
 
-## 8. Copyright
+## 9. Copyright
 
 This document is in the public domain.
 
