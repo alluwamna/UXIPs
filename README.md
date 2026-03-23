@@ -2,9 +2,12 @@
 
 This repository contains the official UX Improvement Proposals (UXIPs).
 
-UXIPs define a structured, transparent process for proposing changes to the UX Protocol, documenting decisions, and building long term community consensus.
+UXIPs define a structured, transparent process for proposing changes to the UX
+Protocol, documenting decisions, and building long term community consensus.
 
-UXIPs are off chain governance documents. They describe what should change and why. Actual parameter changes or upgrades are executed separately through on chain governance proposals.
+UXIPs are off chain governance documents. They describe what should change and
+why. Actual parameter changes or upgrades are executed separately through on
+chain governance proposals.
 
 ## Purpose
 
@@ -35,7 +38,6 @@ UXIP files use the format:
 
 uxip-<number>-<short-slug>.md
 
-Numbers are assigned by editors.  
 Slugs are lowercase, hyphen separated, and descriptive.
 
 ## UXIP Lifecycle
@@ -43,7 +45,8 @@ Slugs are lowercase, hyphen separated, and descriptive.
 1. Draft – Proposal is submitted as a pull request.  
 2. Review – Community discussion and refinement.  
 3. Final – Consensus reached, UXIP merged.  
-4. Implemented – If needed, a separate on chain governance proposal executes the change.
+4. Implemented – If needed, a separate on chain governance proposal executes
+   the change.
 
 UXIPs themselves do not modify the chain.
 
@@ -51,7 +54,7 @@ UXIPs themselves do not modify the chain.
 
 1. Fork this repository.  
 2. Copy the template from /template/uxip-template.md.  
-3. Create a new file named uxip-xxx-title.md (editors assign the number).  
+3. Create a new file named uxip-xxx-title.md.  
 4. Submit a pull request.  
 5. Participate in the discussion and refinement.
 
@@ -59,7 +62,8 @@ Anyone may propose a UXIP.
 
 ## Relationship to On Chain Governance
 
-UXIPs define policy, rationale, and design. On chain proposals perform actual parameter changes.
+UXIPs define policy, rationale, and design. On chain proposals perform actual
+parameter changes.
 
 Example:
 
@@ -74,7 +78,8 @@ UXIP‑0: Proposal process
 UXIP‑1: Authoring guidelines  
 UXIP‑2: Core principles  
 
-Once these are finalized, the community can begin submitting UXIPs for topics such as:
+Once these are finalized, the community can begin submitting UXIPs for topics
+such as:
 
 - liquid staking guidance (ETH, BTC, etc.)
 - pool lifecycle and wind down criteria
