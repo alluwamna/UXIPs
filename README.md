@@ -36,7 +36,7 @@ README.md
 
 UXIP files use the format:
 
-uxip-<number>-<short-slug>.md
+`uxip-<number>-<short-slug>.md`
 
 Slugs are lowercase, hyphen separated, and descriptive.
 
